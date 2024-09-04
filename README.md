@@ -2,7 +2,7 @@
 
 ## About <a name = "about"></a>
 
-A homepage and a subpage designed using HTML and CSS by following WCAG (Web Content Accessibility Guidelines). The goal is to ensure that the webpage as accessible as possible. 
+A homepage and a subpage designed using HTML and CSS by following WCAG (Web Content Accessibility Guidelines). The goal is to ensure that the webpage is accessible as much as possible. 
 
 ## Getting Started <a name = "getting_started"></a>
 
