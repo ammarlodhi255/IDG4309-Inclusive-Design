@@ -1,0 +1,244 @@
+/* Base styling */
+body {
+    font-family: 'Roboto', sans-serif; /* Modern and clean font */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light gray background for a modern look */
+    color: #333;
+    line-height: 1.6; /* Improves text readability */
+}
+
+a {
+    color: #000000; /* Brand color for links */
+    text-decoration: none;
+    transition: color 0.3s ease; /* Smooth transition for hover effects */
+}
+
+a:hover {
+    color: #e6b800;
+}
+
+/* Top bar */
+.top-bar {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0; /* Increased padding for better spacing */
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px; /* Slight letter-spacing for modern look */
+}
+
+.social-icons {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+/* Header */
+header {
+    background-color: #fff;
+    border-bottom: 2px solid #ffcc00; /* Brand color border for emphasis */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.logo h1 {
+    font-size: 28px; /* Slightly larger logo text */
+    font-weight: bold;
+    color: #000000; /* Brand color for the logo */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    font-size: 18px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #020202;
+    color: #ffffff;
+}
+
+.nav-icons {
+    display: flex;
+    gap: 10px;
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    background: url('img/hero.jpg') no-repeat center center/cover;
+    height: 80vh; /* Height of the hero section */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    overflow: hidden; /* Ensure that the image does not overflow */
+}
+
+.hero-overlay {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box; /* Ensure padding is included in the element’s total width and height */
+}
+
+.hero-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the entire container */
+    z-index: -1; /* Place the image behind the text */
+}
+
+.play-button {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffcc00;
+    color: #333;
+    border: none;
+    padding: 15px 30px;
+    font-size: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    z-index: 1; /* Ensure the button is above the image */
+}
+
+.play-button:hover {
+    background-color: #e6b800;
+    transform: translate(-50%, -50%) scale(1.1);
+}
+
+.hero h2, .hero p {
+    margin-top: 100px;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.hero p {
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+/* Content Grid */
+.content-grid {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: space-around;
+    background-color: #fff; /* White background for content area */
+    border-radius: 10px; /* Rounded corners for a modern look */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    margin: 20px; /* Added margin for spacing */
+}
+
+.content-item {
+    background-color: #f9f9f9;
+    border: none;
+    border-radius: 10px;
+    width: 30%;
+    margin: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for content cards */
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.content-item:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+}
+
+.content-item img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #ffcc00; /* Brand color border at bottom */
+}
+
+.content-item p {
+    padding: 15px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Footer */
+footer {
+    background-color: #333; /* Dark footer background */
+    color: #fff;
+    text-align: center;
+    padding: 30px 0; /* Increased padding for better spacing */
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px; /* Subtle letter spacing for modern touch */
+    border-top: 3px solid #ffcc00; /* Brand color border on top */
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+footer a {
+    color: #ffcc00; /* Brand color for footer links */
+    text-decoration: none;
+    margin: 0 10px; /* Spacing between footer links */
+    transition: color 0.3s ease; /* Smooth transition on hover */
+}
+
+footer a:hover {
+    color: #e6b800;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+        padding: 10px 0; /* Spacing in mobile view */
+    }
+
+    .content-grid {
+        flex-direction: column;
+    }
+
+    .content-item {
+        width: 90%; /* Adjust content item width for mobile view */
+        margin: 10px auto; /* Center align content items */
+    }
+
+    .hero {
+        height: 60vh; /* Reduced hero height for mobile */
+    }
+
+    .hero h2 {
+        font-size: 32px; /* Adjusted font size for mobile */
+    }
+
+    .play-button {
+        font-size: 18px;
+        padding: 12px 24px; /* Adjusted padding for mobile */
+    }
+}
