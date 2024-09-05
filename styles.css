@@ -331,6 +331,9 @@ footer a:hover {
     cursor: pointer;
 }
 
-
-
-
+.svg-icon {
+    width: 60px; /* Adjust size */
+    height: 60px;
+    margin-left: 10px; /* Add spacing */
+    vertical-align: middle; /* Align it with text */
+}
