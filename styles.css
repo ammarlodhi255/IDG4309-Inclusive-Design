@@ -453,3 +453,83 @@ button {
     border-radius: 20px;
     cursor: pointer;
 }
+
+/* Add a global focus outline for keyboard navigation */
+:focus {
+    outline: 10px solid #ffcc00; /* Brand color for focus outline */
+    outline-offset: 3px; /* Optional: Add space between the outline and the element */
+}
+
+/* Remove default focus styles from elements like links and buttons if necessary */
+a:focus,
+button:focus,
+input:focus,
+textarea:focus,
+select:focus {
+    outline: 10px solid #ffcc00; /* Ensure all elements have a focus state */
+    outline-offset: 3px; /* Slight gap between the element and the outline */
+}
+
+/* Optional: Add hover effect for links and buttons for visual consistency */
+a:hover,
+button:hover {
+    outline: none; /* Remove outline on hover for better visual consistency */
+}
+
+.social-icons {
+    display: flex;
+    gap: 20px; /* Space between icons */
+    justify-content: center; /* Center the icons and text */
+    align-items: center; /* Vertically center the text with icons */
+}
+
+.social-icons a {
+    display: flex;
+    align-items: center; /* Align the text vertically with the icon */
+    font-size: 18px; /* Increase font size for a fancy look */
+    font-weight: bold; /* Make the text bold */
+    color: #fff; /* Adjust text color */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s ease; /* Smooth transition on hover */
+}
+
+.social-icons a img {
+    width: 24px; /* Set width for the icon */
+    height: 24px;
+    margin-right: 10px; /* Space between icon and text */
+    transition: transform 0.3s ease; /* Animation effect on hover */
+}
+
+.social-icons a:hover {
+    color: #e6b800; /* Change text color on hover */
+}
+
+.social-icons a:hover img {
+    transform: scale(1.2); /* Enlarge icon slightly on hover */
+}
+
+
+.social-icons a {
+    display: flex;
+    align-items: center; /* Align the text vertically with the icon */
+    font-size: 18px; /* Increase font size for a fancy look */
+    font-weight: bold; /* Make the text bold */
+    color: #ffcc00; /* Set text color to #ffcc00 */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s ease; /* Smooth transition on hover */
+}
+
+.social-icons a:hover {
+    color: #ffffff; /* Change text color on hover (optional) */
+}
+
+.social-icons a img {
+    width: 24px; /* Set width for the icon */
+    height: 24px;
+    margin-right: 10px; /* Space between icon and text */
+    transition: transform 0.3s ease; /* Animation effect on hover */
+}
+
+.social-icons a:hover img {
+    transform: scale(1.2); /* Enlarge icon slightly on hover */
+}
