@@ -249,12 +249,12 @@ footer a:hover {
 
     .play-button {
         font-size: 18px;
-        padding: 12px 24px; /* Adjusted padding for mobile */
+        padding: 12px 24px; 
     }
 }
 
 .content-item:focus {
-    outline: 2px solid #ffcc00; /* Example custom focus style */
+    outline: 10px solid #ffcc00; 
 }
 
 .footer {
