@@ -27,4 +27,4 @@ open ./index.html
 ```
 
 ## Screenshots <a name = "screenshots"></a> 
-![Homepage1](/img/..)
+![Homepage1](/img/Picture-1.png)
