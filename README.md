@@ -31,3 +31,4 @@ open ./index.html
 ![Homepage2](/img/pc2.png)
 ![Homepage3](/img/pc3.png)
 ![Subpage1](/img/pc4.png)
+![preview](https://github.com/user-attachments/assets/928a4ebc-b840-442b-b5cf-31028252081f)
